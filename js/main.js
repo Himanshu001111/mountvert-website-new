@@ -86,28 +86,29 @@ const hero = document.querySelector(".hero");
 const heroTitle = document.getElementById("hero-title");
 
 // Slides data (EDIT TITLES FREELY)
-const heroSlides = [
-    {
-        image: "assets/hero/mechanical.jpg",
-        title: "Precision Mechanical Engineering & Equipment Solutions"
-    },
-    {
-        image: "assets/hero/electrical.jpg",
-        title: "Reliable Electrical Systems for Industrial Operations"
-    },
-    {
-        image: "assets/hero/machine-design.jpg",
-        title: "Custom Machine Design Built for Performance & Accuracy"
-    },
-    {
-        image: "assets/hero/automation.jpg",
-        title: "Automation-Driven Engineering for Smarter Industries"
-    },
-    {
-        image: "assets/hero/ai.jpg",
-        title: "AI-Enabled Engineering Solutions for the Future"
-    }
+const slides = [
+  {
+    image: "assets/mechanical.jpg",
+    title: "Precision Mechanical Engineering Solutions"
+  },
+  {
+    image: "assets/electrical.jpg",
+    title: "Reliable Electrical Systems for Industry"
+  },
+  {
+    image: "assets/machine-design.jpg",
+    title: "Custom Machine Design & SPM Solutions"
+  },
+  {
+    image: "assets/automation.jpg",
+    title: "Automation & BIM Driven Engineering"
+  },
+  {
+    image: "assets/ai.jpg",
+    title: "AI Enabled Engineering for Smart Industry"
+  }
 ];
+
 
 let currentSlide = 0;
 
